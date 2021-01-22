@@ -1,0 +1,30 @@
+.header {
+    width: 100%;
+    background-color: #fcd401;
+}
+
+.satu {
+    background-color: #fcd401;
+}
+
+.carousel img {
+    height: 100vh;
+}
+
+.card {
+    min-height: 450px;
+}
+
+.card img {
+    height: 200px;
+}
+
+.menu-kanan {
+    font-size: 10px;
+}
+
+.daftar {
+    background-color: #fcd401;
+}
+
+.medsos {}

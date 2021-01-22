@@ -1,0 +1,146 @@
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    padding: 20px;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+
+}
+
+section.satu {
+    background: url('../img/banner2.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+
+.menu-atas {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.menu-kanan {
+    display: flex;
+}
+
+.container {
+    padding: 2% 10%;
+}
+
+section.dua {
+    background-color: rgb(228, 228, 228);
+}
+
+.content {
+    display: flex;
+}
+
+.card {
+    margin: 5px;
+    background-color: white;
+    padding: 3px;
+    border-radius: 30x;
+}
+
+.card button {
+    padding: 10px;
+    background-color: red;
+    border-radius: 30px;
+    color: white;
+    margin-top: 10px;
+}
+
+
+.button button {
+    padding: 10px;
+    background-color: red;
+    border-radius: 30px;
+    color: white;
+}
+
+section.Tiga img {
+    width: 100px;
+    height: 100px;
+}
+
+section.Tiga h1 {
+    font-size: 32px;
+}
+
+.pulsa .img {
+    width: 30px;
+    height: 30px;
+}
+
+.content-tiga {
+    display: flex;
+    justify-content: space-between;
+}
+
+section.Tiga img.dapat {
+    width: 60px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.contents {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content1,
+.content2,
+.content3 {
+    border-right: 1px solid black;
+    padding: 5px;
+}
+
+.daftar {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: yellow;
+    align-items: center;
+}
+
+.daftar input {
+    width: 20%;
+    height: 30px;
+}
+
+.medsos {
+    background-color: red;
+    text-align: center;
+}
+
+.text {
+    background-color: grey;
+    font-size: 10px;
+    padding: 5px 50px;
+    margin-top: 20px;
+}
+
+ul.menu-footer {
+    display: block;
+}
+
+.main {
+    background-color: black;
+    color: white;
+    padding: 0 15%;
+}
+
+.conten {}
