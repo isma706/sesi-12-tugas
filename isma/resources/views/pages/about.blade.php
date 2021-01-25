@@ -16,7 +16,7 @@
     <header class="header">
         <div class="container">
             <div class="navbar d-flex justify-content-between">
-            <ul class="nav text-danger">
+                <ul class="nav text-danger">
                     <li class="nav-item ">
                         <a class="nav-link text-danger" href="{{url('/')}}">Personal</a>
                     </li>
@@ -98,15 +98,14 @@
     <section>
         <div class="container">
             <div class="row py-5">
-                <h2 class="pb-5">Article Terbaru</h2>
+                <h2 class="pb-5">Tentang Perusahaan</h2>
                 @foreach ($items as $item)
-                <div class="col-sm-4 mb-5">
-                    <img src="{{Storage::url($item->image)}}" alt="image" class="img-thumbnail " />
+                <div class="col-sm-6 mb-5">             
+                    <img src="{{Storage::url($item->image)}}" alt="image" class="w-100" />  
                 </div>
-                <div class="col-sm-8 mb-5">
-                    <h6>{{$item->categories}} . {{$item->date}}</h6>
-                    <h3>{{$item->title}}</h3>
-                    <p>{{$item->text}}</p>
+                <div class="col-sm-6 mb-5">             
+                    <h5 class="card-title">{{$item->title}}</h5>
+                    <p class="card-text">{{$item->text}}</p>
                 </div>
                 @endforeach
             </div>

@@ -26,7 +26,26 @@
             <i class="fas fa-fw fa-newspaper"></i>
             <span>News</span></a>
     </li>
-
+    <li class="nav-item">
+        <a class="nav-link" href="{{route('product.index')}}">
+            <i class="fas fa-fw fa-newspaper"></i>
+            <span>Product</span></a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="{{route('about.index')}}">
+            <i class="fas fa-fw fa-newspaper"></i>
+            <span>About</span></a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="{{route('bisnis.index')}}">
+            <i class="fas fa-fw fa-newspaper"></i>
+            <span>Bisnis</span></a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="{{route('investor.index')}}">
+            <i class="fas fa-fw fa-newspaper"></i>
+            <span>Investor</span></a>
+    </li>
     <!-- Divider -->
     <hr class="sidebar-divider d-none d-md-block">
 

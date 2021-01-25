@@ -16,18 +16,18 @@
     <header class="header">
         <div class="container">
             <div class="navbar d-flex justify-content-between">
-                <ul class="nav text-danger">
+            <ul class="nav text-danger">
                     <li class="nav-item ">
-                        <a class="nav-link text-danger" href="#">Personal</a>
+                        <a class="nav-link text-danger" href="{{url('/')}}">Personal</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-danger" href="#">Bisnis</a>
+                        <a class="nav-link text-danger" href="{{url('/bisnis')}}">Bisnis</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-danger" href="#">Tentang Indosat Ooredoo</a>
+                        <a class="nav-link text-danger" href="{{url('/about')}}">Tentang Indosat Ooredoo</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-danger" href="#">Investor Relations</a>
+                        <a class="nav-link text-danger" href="{{url('/investor')}}">Investor Relations</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-danger" href="{{url('/news')}}">News</a>
@@ -58,7 +58,7 @@
                         <div class="collapse navbar-collapse mr-auto" id="navbarSupportedContent">
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0 mr-auto">
                                 <li class="nav-item">
-                                    <a class="nav-link text-danger" href="#">Produk</a>
+                                    <a class="nav-link text-danger" href="{{url('/product')}}">Produk</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link text-danger href=" #">Kenapa IM3 Ooredoo</a>

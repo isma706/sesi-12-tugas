@@ -98,16 +98,19 @@
     <section>
         <div class="container">
             <div class="row py-5">
-                <h2 class="pb-5">Article Terbaru</h2>
+                <h2 class="pb-5">Bisnis Indosat</h2>
                 @foreach ($items as $item)
                 <div class="col-sm-4 mb-5">
-                    <img src="{{Storage::url($item->image)}}" alt="image" class="img-thumbnail " />
+                <div class="card" >
+                    <img src="{{Storage::url($item->image)}}" alt="image" class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title">{{$item->title}}</h5>
+                        <p class="card-text">{{$item->text}}</p>
+                        
+                    </div>
                 </div>
-                <div class="col-sm-8 mb-5">
-                    <h6>{{$item->categories}} . {{$item->date}}</h6>
-                    <h3>{{$item->title}}</h3>
-                    <p>{{$item->text}}</p>
                 </div>
+                
                 @endforeach
             </div>
         </div>
